@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  .top{
+   /* HOME PAGE */
+position: relative; 
+width: 1920px;
+height: 700px;
+left: 0;
+right: 0;
+top: 0;
+bottom: 7406px; 
+ 
+   }
+
+ .header{
+     /* Meun bar */
+position: absolute; 
+width: 1170px;
+height: 40px;
+left: 375px;
+right: 375px;
+top: 40px;
+bottom: 620px;
+ 
+ }
+
+ .Logo{
+  /* Logo */
+position: absolute; 
+width: 139px;
+height: 40px;
+left: 375px;
+right: 656px;
+top: 40px;
+bottom: -40px;
+ }
+
+ .header__logo{
+/* logo */
+position: absolute; 
+width: 35px;
+height: 40px;
+left: 375px;
+right: -271px;
+top: 40px;
+bottom: -40px;
+ }
+
+ .header__text{
+ /* text */
+position: absolute; 
+width: 90px;
+height: 29px;
+left: 424px;
+right: -375px;
+top: 45px;
+bottom: -34px;
+ }
+
+ .text{
+  /* GrowBe */
+position: absolute; 
+width: 90px;
+height: 29px;
+left: 424px;
+right: -424px;
+top: 45px;
+bottom: -45px;
+font-family: Gilroy-Bold;
+font-size: 24px;
+font-weight: 400;
+line-height: -1px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+ 
+ header__link{
+  /* Home About Us Services Features Team Blog Contact */
+position: absolute; 
+width: 573px;
+height: 17px;
+left: 858px;
+right: -858px;
+top: 51px;
+bottom: -51px;
+/* font-family: Gilroy-Medium; */
+font-size: 14px;
+font-weight: 400;
+line-height: -1px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+
+ .header__button{
+     /* Rectangle 1 */
+position: absolute; 
+width: 120px;
+height: 40px;
+left: 1425px;
+/* right: -1425px; */
+top: 40px;
+bottom: -40px;
+border-radius: 30px;
+
+background: rgb(242, 88, 34);
+ }
+
+
+ .top-info{
+  /* Home Meta */
+position: absolute;
+width: 558px;
+height: 374px;
+left: 352px;
+right: 1010px;
+top: 223px;
+bottom: 103px;
+ }
+ .subtaitel{
+  /* SEO & Digital Marketing For Your Website. */
+position: absolute; 
+width: 537px;
+height: 218px;
+left: 373px;
+right: -373px;
+top: 223px;
+bottom: -223px;
+color: rgb(0, 0, 0);
+/* font-family: Gilroy-Bold; */
+font-size: 60px;
+font-weight: 400;
+line-height: -1px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+ .title {
+position: absolute;
+width: 537px;
+height: 218px;
+left: 373px;
+right: -352px;
+top: 223px;
+bottom: -67px;
+ }
+ .top__img{
+  /* Image */
+position: absolute;
+width: 610.73px;
+height: 372.9px;
+left: 934px;
+right: 375.27px;
+top: 164px;
+bottom: 163.1px;
+ }
+
+ .pngfind{
+position: absolute; 
+width: 544.81px;
+height: 374.84px;
+left: 935.94px;
+right: -870.02px;
+top: 162.71px;
+bottom: -164.65px; 
+ }
+
+ .header__text{
+  /* GrowBe */
+position: absolute; 
+width: 90px;
+height: 29px;
+left: 424px;
+right: -424px;
+top: 45px;
+bottom: -45px;
+/* font-family: Gilroy-Bold; */
+font-size: 24px;
+font-weight: 400;
+line-height: -1px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+ .text__top{
+  /* Provide all kind of seo services and help to improve seo ranking. Globally incubate standards. */
+position: absolute; 
+width: 485px;
+height: 48px;
+left: 373px;
+right: -373px;
+top: 462px;
+bottom: -462px;
+color: rgb(136, 136, 136);
+/* font-family: Gilroy-Medium; */
+font-size: 20px;
+font-weight: 400;
+line-height: -1px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+ .buttons{
+  /* Rectangle 3 */
+position: absolute; 
+width: 140px;
+height: 50px;
+left: 375px;
+right: -375px;
+top: 547px;
+bottom: -547px;
+border-radius: 50px;
+
+box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+background: rgb(242, 88, 34);
+ }
+
+ .top-logo{
+  /* Brand logo */
+position: absolute; 
+width: 1200px;
+height: 50px;
+left: 345px;
+right: 375px;
+top: 797px;
+bottom: -604px;
+ } 

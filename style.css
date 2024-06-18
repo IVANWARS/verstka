@@ -1,23 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+ *{
+  margin: 0;
+  padding: 0;
+
+ }
 
   .top{
    /* HOME PAGE */
 position: relative; 
-width: 1920px;
+width: 100px;
 height: 700px;
 left: 0;
 right: 0;
 top: 0;
-bottom: 7406px; 
+bottom: 7406px;
+background: rgb(255, 255, 255); 
  
    }
 
+a {
+  text-decoration: none;
+}
+
  .header{
      /* Meun bar */
-position: absolute; 
+/* position: absolute;  */
 width: 1170px;
 height: 40px;
 left: 375px;
@@ -29,7 +35,7 @@ bottom: 620px;
 
  .Logo{
   /* Logo */
-position: absolute; 
+/* position: absolute;  */
 width: 139px;
 height: 40px;
 left: 375px;
@@ -40,18 +46,23 @@ bottom: -40px;
 
  .header__logo{
 /* logo */
-position: absolute; 
-width: 35px;
+position: absolute;  
 height: 40px;
 left: 375px;
 right: -271px;
 top: 40px;
 bottom: -40px;
+display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
  }
 
  .header__text{
  /* text */
-position: absolute; 
+/* position: absolute;  */
 width: 90px;
 height: 29px;
 left: 424px;
@@ -62,7 +73,7 @@ bottom: -34px;
 
  .text{
   /* GrowBe */
-position: absolute; 
+/* position: absolute;  */
 width: 90px;
 height: 29px;
 left: 424px;
@@ -77,31 +88,36 @@ letter-spacing: 0%;
 text-align: left;
  }
 
- 
- header__link{
+ .link{
+/* header__link{ */
   /* Home About Us Services Features Team Blog Contact */
-position: absolute; 
+position: absolute;   
 width: 573px;
 height: 17px;
-left: 858px;
+left: 780px;
 right: -858px;
 top: 51px;
 bottom: -51px;
 /* font-family: Gilroy-Medium; */
-font-size: 14px;
+font-size: 20px;
 font-weight: 400;
 line-height: -1px;
 letter-spacing: 0%;
 text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
  }
 
 
  .header__button{
      /* Rectangle 1 */
-position: absolute; 
+position: absolute;  
 width: 120px;
 height: 40px;
-left: 1425px;
+left: 1345px;
 /* right: -1425px; */
 top: 40px;
 bottom: -40px;
@@ -113,7 +129,7 @@ background: rgb(242, 88, 34);
 
  .top-info{
   /* Home Meta */
-position: absolute;
+/* position: absolute; */
 width: 558px;
 height: 374px;
 left: 352px;
@@ -123,7 +139,7 @@ bottom: 103px;
  }
  .subtaitel{
   /* SEO & Digital Marketing For Your Website. */
-position: absolute; 
+ position: absolute;  
 width: 537px;
 height: 218px;
 left: 373px;
@@ -137,10 +153,16 @@ font-weight: 400;
 line-height: -1px;
 letter-spacing: 0%;
 text-align: left;
+display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    align-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
  }
 
  .title {
-position: absolute;
+/* position: absolute; */
 width: 537px;
 height: 218px;
 left: 373px;
@@ -150,13 +172,19 @@ bottom: -67px;
  }
  .top__img{
   /* Image */
-position: absolute;
-width: 610.73px;
+position: absolute; 
+ width: 610.73px;
 height: 372.9px;
 left: 934px;
 right: 375.27px;
 top: 164px;
-bottom: 163.1px;
+bottom: 163.1px; 
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-direction: column;
+    align-items: center;
  }
 
  .pngfind{
@@ -202,6 +230,9 @@ font-weight: 400;
 line-height: -1px;
 letter-spacing: 0%;
 text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
  }
 
  .buttons{
@@ -217,7 +248,56 @@ border-radius: 50px;
 
 box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
 background: rgb(242, 88, 34);
+
+color: rgb(255, 255, 255);
+/* font-family: Gilroy-Bold; */
+font-size: 15px;
+font-weight: 400;
+line-height: -1px;
+letter-spacing: 0%;
+text-align: left;
  }
+
+
+ /* .top__img{
+  position: absolute;
+width: 90px;
+height: 19px;
+left: 428.89%;
+right: -395.56%;
+top: 1866.67%;
+bottom: -1830%;
+
+color: rgb(170, 170, 170);
+font-family: Gilroy-Bold;
+font-size: 15px;
+font-weight: 400;
+line-height: -1px;
+letter-spacing: 0%;
+text-align: left; 
+ }*/
+
+
+ .video {
+position: absolute;
+width: 135px;
+height: 30px;
+left: 176.82%;
+right: -121.52%;
+top: 1110%;
+bottom: -1070%;
+/* position: absolute; */
+width: 15px;
+height: 15px;
+left: 1855%;
+right: -1805%;
+top: 1875%;
+bottom: -1825%;
+transform: rotate(90.00deg);
+border-radius: 2px;
+
+background: rgb(242, 88, 34);
+ } 
 
  .top-logo{
   /* Brand logo */
@@ -228,4 +308,11 @@ left: 345px;
 right: 375px;
 top: 797px;
 bottom: -604px;
- } 
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: baseline;
+}
+ 
